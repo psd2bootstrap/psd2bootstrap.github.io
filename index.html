@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+        
+        <style>
+            html, body{
+                height: 100%;
+            }
+            *{
+                padding: 0;
+                margin: 0;
+                outline: none;
+            }
+            body{
+                color: #fff;
+                font-family: sans-serif;
+                font-size: 100%;
+                background: #CF000F;
+                line-height: 1.5;
+            }
+            h1{
+                font-size: 4em;
+                text-shadow: 5px 2px 0 rgba(0, 0, 0, 0.5);
+            }
+
+            p{
+                font-size: 1em;
+                text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+            }
+
+            .container{
+                width: 80%;
+                height: 80%;
+                margin: 0 auto;
+                background-color: rgba(0, 0, 0, 0.2);
+                text-align: center;
+            }
+
+            .table-wrapper{
+                display: table;
+                height: 100%;
+            }
+
+            .table-cell{
+                display: table-cell;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="table-wrapper">
+                <div class="table-cell">
+                    <h1>Hello World! This is HTML5 Boilerplate Sample Template.</h1>        
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis exercitationem delectus nemo totam atque non magnam sapiente voluptatum voluptas, sit, amet deserunt aliquid quos optio molestias, dolorum magni odio voluptates ad nam doloribus impedit dolores nesciunt placeat! Dolore harum culpa, labore repellat officiis illum veniam dolores laboriosam magnam quidem laudantium. Quia impedit, consequuntur, doloremque cupiditate quae non assumenda id repudiandae nihil illo dolorum tempora repellendus minima, fuga, sapiente repellat libero. Explicabo atque cupiditate necessitatibus quisquam at sint esse veniam quia quis adipisci ullam iure nulla soluta obcaecati aut, tempore voluptates ea numquam qui. Placeat neque dolorum inventore tenetur, ipsum earum.</p>                    
+                </div>
+            </div>
+            
+
+            
+        </div>
+        
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/jquery-fittext.js/jquery.fittext.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $(".container h1").fitText(1, {minFontSize: '24px'});
+                $(".container p").fitText(2, {minFontSize: '16px'});
+            });
+        
+        </script>
+
+    </body>
+</html>
